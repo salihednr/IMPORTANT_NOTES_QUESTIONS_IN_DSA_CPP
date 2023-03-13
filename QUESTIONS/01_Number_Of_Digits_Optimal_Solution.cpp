@@ -8,11 +8,16 @@ don't forget to add cmath header file
 #include<iostream>
 #include<cmath>
 using namespace std;
+int numberOfDigits(int n);
 int main(){
     int n;
     cin>>n;
-    //Maths Equation For Number Of Digits
-    int dig=(int)log10(n)+1;
+    int dig=numberOfDigits(n);
     cout<<"Number Of Digits In "<<n<<" Is "<<dig<<endl;
     return 0;
+}
+//Number Of Digits
+int numberOfDigits(int n){
+    //Maths Equation For Number Of Digits
+    return 1+(int)log10(n);
 }
