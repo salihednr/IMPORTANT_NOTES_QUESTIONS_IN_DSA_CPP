@@ -1,0 +1,3 @@
+Number Of Digits
+Using Maths Relation Time Complexity Can Be Used As Constant To Find The Number Of Digits In A Number
+(((int)log10(n))+1) will give number of digits
