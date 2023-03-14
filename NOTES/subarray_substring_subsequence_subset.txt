@@ -1,0 +1,40 @@
+Subarray Vs Substring Vs Subsequence Vs Subset
+
+1. Sub Array
+    Sub Array Is Contigous Part Of An Array 
+    Relative Order Is Important
+    It Must Be Contigous
+    Number Of Possible Sub Arrays Are (n(n+1))/2
+    {1,2,3,4}
+    {1},{1},{3},{4} : 4
+    {1,2},{2,3},{3,4} : 3
+    {1,2,3},{2,3,4} : 2
+    {1,2,3,4} : 1
+    This How It Comes The Sum Of Natural Number
+    Eg {1,2,3,4,5}
+    Sub Array
+    {1},{2},{1,2}
+    Not Sub Array
+    {7} : 7 is not in the main Array
+    {1,3}: Maintains Relative Order But Not Contiguous
+2. Sub String
+    Sub String Is Same As Sub Array But In The Case Of String Sub Array Is Called Sub String
+3. Subsequence
+    Subsequence Is Not Contigous But Main Relative Order
+    Relative Order Is Important
+    It Need Not Be Contigous
+    All Sub Arrays Are Subsequence (Converse Is Not True) But Not All Subsequence Are Sub Array
+    Null Set Is Subsequence
+    Number Of Subsequence Is 2^n (Same As Subset)
+    Take, Not Take Approach Is Used
+    --- 2*2*2 = 8 Is The Possible Sub Array
+    Eg {1,2,3,4,5}
+    Subsequence
+    {1},{2},{1,2},{1,5},{1,2,5}
+    Not Subsequence
+    {2,1}: It Is Subset But Not Subsequence. It Is Not Maintaining Relative Order
+    {1,4,2}: It Is Subset But Not Subsequence. It Is Not Maintaining Relative Order
+4. Subset
+    Same That Math Concept
+    All Subsequences Are Subset But Converse Is Not True
+    All Subarrays Are Subset But Converse Is Not True
